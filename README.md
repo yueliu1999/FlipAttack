@@ -17,7 +17,7 @@ This paper proposes a simple yet effective jailbreak attack named FlipAttack aga
 <img src="./assets/radar_plot.png" alt="radar_plot" style="zoom:61%;" />
 
 <p align="center">
-Figure 1. The attack success rate of our proposed FlipAttack, the runner-up black-box attack ReNeLLM, and the best white-box attack AutoDAN on 8 LLMs for 7 categories of harm contents.
+Figure 1. The attack success rate of our proposed FlipAttack (blue), the runner-up black-box attack ReNeLLM (red), and the best white-box attack AutoDAN (yellow) on 8 LLMs for 7 categories of harm contents.
 </p>
 
 
@@ -139,6 +139,7 @@ Table 1: The attack success rate (%) of 16 methods on 8 LLMs. The bold and under
 <p align="center">
 Figure 2: Token cost & attack performance of 16 attack methods. A larger bubble indicates higher token costs.
 </p>
+
 
 
 
