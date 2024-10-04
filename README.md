@@ -14,7 +14,7 @@ This paper proposes a simple yet effective jailbreak attack named FlipAttack aga
 </p>
 
 
-![radar_plot](./assets/radar_plot.png)
+<img src="./assets/radar_plot.png" alt="radar_plot" style="zoom:61%;" />
 
 <p align="center">
 Figure 1. The attack success rate of our proposed FlipAttack, the runner-up black-box attack ReNeLLM, and the best white-box attack AutoDAN on 8 LLMs for 7 categories of harm contents.
@@ -127,14 +127,13 @@ Figure 1. The attack success rate of our proposed FlipAttack, the runner-up blac
 <p align="center">
 Table 1: The attack success rate (%) of 16 methods on 8 LLMs. The bold and underlined values are the best and runner-up results. The evaluation metric is ASR-GPT based on GPT-4.
 </p>
-
-![performance](./assets/performance.png)
-
+<img src="./assets/performance.png" alt="performance" style="zoom:61%;" />
 
 
 
 
-![cost](./assets/cost.png)
+
+<img src="./assets/cost.png" alt="cost" style="zoom:61%;" />
 
 <p align="center">
 Figure 2: Token cost & attack performance of 16 attack methods. A larger bubble indicates higher token costs. FlipAttack, ReNeLLM, AutoDAN denotes the best black-box attack, the runner-up black-box attack, and the best white-box attack in terms of attack performance, respectively.
