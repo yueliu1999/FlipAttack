@@ -124,12 +124,13 @@ Figure 1. The attack success rate of our proposed FlipAttack, the runner-up blac
 
 ### Main Result
 
+
+
+<img src="./assets/performance.png" alt="performance" style="zoom:61%;" />
+
 <p align="center">
 Table 1: The attack success rate (%) of 16 methods on 8 LLMs. The bold and underlined values are the best and runner-up results. The evaluation metric is ASR-GPT based on GPT-4.
 </p>
-<img src="./assets/performance.png" alt="performance" style="zoom:61%;" />
-
-
 
 
 
