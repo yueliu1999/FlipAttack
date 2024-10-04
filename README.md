@@ -137,7 +137,7 @@ Table 1: The attack success rate (%) of 16 methods on 8 LLMs. The bold and under
 <img src="./assets/cost.png" alt="cost" style="zoom:61%;" />
 
 <p align="center">
-Figure 2: Token cost & attack performance of 16 attack methods. A larger bubble indicates higher token costs. FlipAttack, ReNeLLM, AutoDAN denotes the best black-box attack, the runner-up black-box attack, and the best white-box attack in terms of attack performance, respectively.
+Figure 2: Token cost & attack performance of 16 attack methods. A larger bubble indicates higher token costs.
 </p>
 
 
