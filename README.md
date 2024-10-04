@@ -1,9 +1,8 @@
 <div align="center">
 <h2><a href="https://github.com/yueliu1999/FlipAttack/blob/main/FlipAttack.pdf">FlipAttack: Jailbreak LLMs via Flipping</a></h2>
+[Yue Liu](https://yueliu1999.github.io/), [Xiaoxin He](https://xiaoxinhe.github.io/),  [Miao Xiong](https://miaoxiong2320.github.io/), [Jinlan Fu](https://jinlanfu.github.io/), [Shumin Deng](https://231sm.github.io/), [Bryan Hooi](https://bhooi.github.io/)
 
-[Yue Liu](https://yueliu1999.github.io/)<sup>1</sup>, [Xiaoxin He](https://xiaoxinhe.github.io/)<sup>1</sup>,  [Miao Xiong](https://miaoxiong2320.github.io/)<sup>1</sup>, [Jinlan Fu](https://jinlanfu.github.io/)<sup>1</sup>, [Shumin Deng](https://231sm.github.io/)<sup>1</sup>, [Bryan Hooi](https://bhooi.github.io/)<sup>1</sup>
-
-<sup>1</sup>[National University Singapore](https://english.nudt.edu.cn/)
+[National University Singapore](https://english.nudt.edu.cn/)
 
 </div>
 
