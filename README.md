@@ -22,7 +22,7 @@ Figure 1. The attack success rate (GPT-based evalation) of our proposed FlipAtta
 
 
 
-
+## Usage
 
 ### Quick Start
 1. change to source code dictionary
@@ -143,3 +143,17 @@ Figure 2: Token cost & attack performance of 16 attack methods. A larger bubble 
 
 
 
+## Citations
+
+If you find this repository helpful, please cite our paper.
+
+```
+@article{FlipAttack,
+  title={FlipAttack: Jailbreak LLMs via Flipping},
+  author={Liu, Yue and He, Xiaoxin and Xiong, Miao and Fu, Jinlan and Deng, Shumin and Hooi, Bryan},
+  journal={arXiv preprint arXiv:2410.02832},
+  year={2024}
+}
+```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
