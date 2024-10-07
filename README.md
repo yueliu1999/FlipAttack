@@ -1,5 +1,5 @@
 <div align="center">
-<h2><a href="https://github.com/yueliu1999/FlipAttack/blob/main/FlipAttack.pdf">FlipAttack: Jailbreak LLMs via Flipping</a></h2>
+<h2><a href="https://arxiv.org/pdf/2410.02832">FlipAttack: Jailbreak LLMs via Flipping</a></h2>
 
 [Yue Liu](https://yueliu1999.github.io/), [Xiaoxin He](https://xiaoxinhe.github.io/),  [Miao Xiong](https://miaoxiong2320.github.io/), [Jinlan Fu](https://jinlanfu.github.io/), [Shumin Deng](https://231sm.github.io/), [Bryan Hooi](https://bhooi.github.io/)
 
