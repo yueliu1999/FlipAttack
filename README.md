@@ -21,6 +21,12 @@ Figure 1. The attack success rate (GPT-based evalation) of our proposed FlipAtta
 </p>
 
 
+## Update
+
+- (**2024/10/11**) FlipAttack is pulled a new request in [PyRIT](https://github.com/Azure/PyRIT), check it [here](https://github.com/Azure/PyRIT/pull/456).
+- (**2024/10/04**) The code of FlipAttack is released.
+- (**2024/10/02**) FlipAttack is [arXiv](https://arxiv.org/pdf/2410.02832).
+
 
 ## Usage
 
