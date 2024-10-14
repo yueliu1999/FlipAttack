@@ -216,7 +216,7 @@ To reproduce and further develop FlipAttack, you should run the following codes.
     # for mistral
     python main.py --victim_llm Mixtral-8x22B-Instruct-v0.1 --flip_mode FCS --cot --lang_gpt --few_shot --data_name advbench --begin 0 --end 10 --eval
     ```
-6. run code in parallel
+6. run code in parallel (recommended)
     ```
     # e.g., for gpt-4-0613
     python main_parallel.py --victim_llm gpt-4-0613 --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval --parallel
