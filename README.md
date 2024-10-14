@@ -23,6 +23,7 @@ Figure 1. The attack success rate (GPT-based evalation) of our proposed FlipAtta
 
 ## Update
 
+- (**2024/10/15**) The development version of codes is released.
 - (**2024/10/12**) FlipAttack has been merged to [PyRIT](https://github.com/Azure/PyRIT), check it [here](https://github.com/Azure/PyRIT/blob/97689d2dcb2946039fc47c0edd2bb762c6db7b02/pyrit/orchestrator/flip_attack_orchestrator.py#L25).
 - (**2024/10/11**) FlipAttack is pulled a new request in [PyRIT](https://github.com/Azure/PyRIT), check it [here](https://github.com/Azure/PyRIT/pull/456).
 - (**2024/10/04**) The code of FlipAttack is released.
