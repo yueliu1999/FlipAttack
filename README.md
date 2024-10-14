@@ -32,6 +32,8 @@ Figure 1. The attack success rate (GPT-based evalation) of our proposed FlipAtta
 ## Usage
 
 ### Quick Start
+To evaluate FlipAttack, you should run the following codes.
+
 1. change to source code dictionary
     ```
     cd ./src
@@ -148,7 +150,78 @@ Figure 2: Token cost & attack performance of 16 attack methods. A larger bubble 
 </p>
 
 
+### Development Version
+To reproduce and further develop FlipAttack, you should run the following codes.
 
+1. Install the environment
+    ```
+    pip install -r requirements.txt
+    ```
+
+2. change to source code dictionary
+    ```
+    cd ./src
+    ```
+3. set the API keys, obtain the API keys from [OpenAI](https://openai.com/index/openai-api/), [Anthropic](https://docs.anthropic.com/en/api/getting-started), and [DeepInfra](https://deepinfra.com/docs/inference)
+    ```
+    # for GPTs
+    export OPENAI_API_KEY="your_api_key"
+
+    # for Claude
+    export ANTHROPIC_API_KEY="your_api_key"
+
+    # LLaMA and Mistral
+    export DEEPINFRA_API_KEY="your_api_key"
+    ```
+
+4. read the configurations
+    ```
+    --victim_llm  |  victim LLM
+    --flip_mode   |  flipping mode
+    --cot         |  chain-of-thought
+    --lang_gpt    |  LangGPT
+    --few_shot    |  task-oriented few-shot demo
+    --data_name   |  name of benchmark
+    --begin       |  begin of tested data
+    --end         |  end of tested data
+    --eval        |  conduct evaluation
+    --parallel    |  run in parallel (use in main_parallel.py)
+    ```
+
+
+5. run the commands
+
+    ```
+    # for gpt-4-0613
+    python main.py --victim_llm gpt-4-0613 --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval
+
+    # for gpt-4-turbo-2024-04-09
+    python main.py --victim_llm gpt-4-turbo-2024-04-09 --flip_mode FCW --cot --data_name advbench --begin 0 --end 10 --eval
+
+    # for gpt-4o-2024-08-06
+    python main.py --victim_llm gpt-4o-2024-08-06 --flip_mode FCS --cot --lang_gpt --few_shot --data_name advbench --begin 0 --end 10 --eval
+
+    # for gpt-4o-mini-2024-07-18
+    python main.py --victim_llm gpt-4o-mini-2024-07-18 --flip_mode FCS --cot --lang_gpt --data_name advbench --begin 0 --end 10 --eval
+
+    # for gpt-3.5-turbo-0125
+    python main.py --victim_llm gpt-3.5-turbo-0125 --flip_mode FWO --data_name advbench --begin 0 --end 10 --eval
+
+    # for claude-3-5-sonnet-20240620
+    python main.py --victim_llm claude-3-5-sonnet-20240620 --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval
+
+    # for llama
+    python main.py --victim_llm Meta-Llama-3.1-405B-Instruct --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval
+    
+    # for mistral
+    python main.py --victim_llm Mixtral-8x22B-Instruct-v0.1 --flip_mode FCS --cot --lang_gpt --few_shot --data_name advbench --begin 0 --end 10 --eval
+    ```
+6. run code in parallel
+    ```
+    # e.g., for gpt-4-0613
+    python main_parallel.py --victim_llm gpt-4-0613 --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval --parallel
+    ```
+7. explore and further improve FlipAttack!
 
 ## Citations
 
