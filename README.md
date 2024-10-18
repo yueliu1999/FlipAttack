@@ -143,7 +143,6 @@ Table 1: The attack success rate (%) of 16 methods on 8 LLMs. The bold and under
 </p>
 
 
-
 <img src="./assets/cost.png" alt="cost" style="zoom:61%;" />
 
 <p align="center">
