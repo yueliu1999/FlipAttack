@@ -23,6 +23,7 @@ Figure 1. The attack success rate (GPT-based evalation) of our proposed FlipAtta
 
 ## Update
 
+- (**2024/10/18**) [FlipGuardData](https://huggingface.co/datasets/yueliu1999/FlipGuardData) is released on huggingface. It contains 45k attack samples on 8 LLMs.
 - (**2024/10/15**) The development version of codes is released.
 - (**2024/10/12**) FlipAttack has been merged to [PyRIT](https://github.com/Azure/PyRIT), check it [here](https://github.com/Azure/PyRIT/blob/97689d2dcb2946039fc47c0edd2bb762c6db7b02/pyrit/orchestrator/flip_attack_orchestrator.py#L25).
 - (**2024/10/11**) FlipAttack is pulled a new request in [PyRIT](https://github.com/Azure/PyRIT), check it [here](https://github.com/Azure/PyRIT/pull/456).
@@ -210,10 +211,10 @@ To reproduce and further develop FlipAttack, you should run the following codes.
     # for claude-3-5-sonnet-20240620
     python main.py --victim_llm claude-3-5-sonnet-20240620 --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval
 
-    # for llama
+    # for Meta-Llama-3.1-405B-Instruct
     python main.py --victim_llm Meta-Llama-3.1-405B-Instruct --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval
     
-    # for mistral
+    # for Mixtral-8x22B-Instruct-v0.1
     python main.py --victim_llm Mixtral-8x22B-Instruct-v0.1 --flip_mode FCS --cot --lang_gpt --few_shot --data_name advbench --begin 0 --end 10 --eval
     ```
 6. run code in parallel (recommended)
