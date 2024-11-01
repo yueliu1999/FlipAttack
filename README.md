@@ -21,14 +21,25 @@ Figure 1. The attack success rate (GPT-based evalation) of our proposed FlipAtta
 </p>
 
 
+
+
 ## Update
 
+- (**2024/11/01**) We add an overview GIF to help readers better understand FlipAttack.
 - (**2024/10/18**) [FlipGuardData](https://huggingface.co/datasets/yueliu1999/FlipGuardData) is released on huggingface. It contains 45k attack samples on 8 LLMs.
 - (**2024/10/15**) The development version of codes is released.
 - (**2024/10/12**) FlipAttack has been merged to [PyRIT](https://github.com/Azure/PyRIT), check it [here](https://github.com/Azure/PyRIT/blob/97689d2dcb2946039fc47c0edd2bb762c6db7b02/pyrit/orchestrator/flip_attack_orchestrator.py#L25).
 - (**2024/10/11**) FlipAttack is pulled a new request in [PyRIT](https://github.com/Azure/PyRIT), check it [here](https://github.com/Azure/PyRIT/pull/456).
 - (**2024/10/04**) The code of FlipAttack is released.
 - (**2024/10/02**) FlipAttack is on [arXiv](https://arxiv.org/pdf/2410.02832).
+
+
+
+<img src="./assets/flipattack_overview.gif" alt="overview" style="zoom:61%;" />
+
+<p align="center">
+Figure 2: Overview of the proposed FlipAttack.
+</p>
 
 
 ## Usage
@@ -147,8 +158,9 @@ Table 1: The attack success rate (%) of 16 methods on 8 LLMs. The bold and under
 <img src="./assets/cost.png" alt="cost" style="zoom:61%;" />
 
 <p align="center">
-Figure 2: Token cost & attack performance of 16 attack methods. A larger bubble indicates higher token costs.
+Figure 3: Token cost & attack performance of 16 attack methods. A larger bubble indicates higher token costs.
 </p>
+
 
 
 ### Development Version
