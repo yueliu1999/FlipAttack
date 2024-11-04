@@ -25,6 +25,7 @@ Figure 1. The attack success rate (GPT-based evalation) of our proposed FlipAtta
 
 ## Update
 
+- (**2024/11/04**) We release the codes of performance evaluation on sub-categories of AdvBench.
 - (**2024/11/01**) We add an overview GIF to help readers better understand FlipAttack.
 - (**2024/10/18**) [FlipGuardData](https://huggingface.co/datasets/yueliu1999/FlipGuardData) is released on huggingface. It contains 45k attack samples on 8 LLMs.
 - (**2024/10/15**) The development version of codes is released.
