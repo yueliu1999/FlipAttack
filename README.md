@@ -233,8 +233,29 @@ To reproduce and further develop FlipAttack, you should run the following codes.
     ```
 6. run code in parallel (recommended)
     ```
-    # e.g., for gpt-4-0613
+    # for gpt-4-0613
     python main_parallel.py --victim_llm gpt-4-0613 --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval --parallel
+
+    # for gpt-4-turbo-2024-04-09
+    python main_parallel.py --victim_llm gpt-4-turbo-2024-04-09 --flip_mode FCW --cot --data_name advbench --begin 0 --end 10 --eval --parallel
+
+    # for gpt-4o-2024-08-06
+    python main_parallel.py --victim_llm gpt-4o-2024-08-06 --flip_mode FCS --cot --lang_gpt --few_shot --data_name advbench --begin 0 --end 10 --eval --parallel
+
+    # for gpt-4o-mini-2024-07-18
+    python main_parallel.py --victim_llm gpt-4o-mini-2024-07-18 --flip_mode FCS --cot --lang_gpt --data_name advbench --begin 0 --end 10 --eval --parallel
+
+    # for gpt-3.5-turbo-0125
+    python main_parallel.py --victim_llm gpt-3.5-turbo-0125 --flip_mode FWO --data_name advbench --begin 0 --end 10 --eval --parallel
+
+    # for claude-3-5-sonnet-20240620
+    python main_parallel.py --victim_llm claude-3-5-sonnet-20240620 --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval --parallel
+
+    # for Meta-Llama-3.1-405B-Instruct
+    python main_parallel.py --victim_llm Meta-Llama-3.1-405B-Instruct --flip_mode FMM --cot --data_name advbench --begin 0 --end 10 --eval --parallel
+    
+    # for Mixtral-8x22B-Instruct-v0.1
+    python main_parallel.py --victim_llm Mixtral-8x22B-Instruct-v0.1 --flip_mode FCS --cot --lang_gpt --few_shot --data_name advbench --begin 0 --end 10 --eval --parallel
     ```
 7. explore and further improve FlipAttack!
 
