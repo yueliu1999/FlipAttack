@@ -24,7 +24,7 @@ Figure 1. The attack success rate (GPT-based evalation) of our proposed FlipAtta
 
 
 ## Update
-
+- (**2025/03/06**) The paper has been accepted by the ICLR 2025 FM-Wild Workshop.
 - (**2024/11/13**) We update the GIF for case studies and check them in case folder. 
 - (**2024/11/04**) We release the codes of performance evaluation on sub-categories of AdvBench.
 - (**2024/11/01**) We add an overview GIF to help readers better understand FlipAttack.
