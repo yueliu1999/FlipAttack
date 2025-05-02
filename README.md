@@ -7,7 +7,8 @@
 
 </div>
 
-
+<p align="center">   </a> <a href="https://icml.cc/Conferences/2023" alt="Conference"> <img src="https://img.shields.io/badge/ICML'23-brightgreen" /> </a>
+</p>
 
 <p align = "justify">
 This paper proposes a simple yet effective jailbreak attack named FlipAttack against black-box LLMs. First, from the autoregressive nature, we reveal that LLMs tend to understand the text from left to right and find that they struggle to comprehend the text when noise is added to the left side. Motivated by these insights, we propose to disguise the harmful prompt by constructing left-side noise merely based on the prompt itself, then generalize this idea to 4 flipping modes. Second, we verify the strong ability of LLMs to perform the text-flipping task, and then develop 4 variants to guide LLMs to denoise, understand, and execute harmful behaviors accurately. These designs keep FlipAttack universal, stealthy, and simple, allowing it to jailbreak black-box LLMs within only 1 query. Experiments on 8 LLMs demonstrate the superiority of FlipAttack. Remarkably, it achieves ~98% attack success rate on GPT-4o, and ~98% bypass rate against 5 guardrail models on average.
