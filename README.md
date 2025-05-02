@@ -7,7 +7,7 @@
 
 </div>
 
-<p align="center">   </a> <a href="https://icml.cc/Conferences/2023" alt="Conference"> <img src="https://img.shields.io/badge/ICML'23-brightgreen" /> </a>
+<p align="center">   </a> <a href="https://icml.cc/Conferences/2025" alt="Conference"> <img src="https://img.shields.io/badge/ICML'23-brightgreen" /> </a>
 </p>
 
 <p align = "justify">
